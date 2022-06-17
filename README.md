@@ -1,7 +1,7 @@
 # 分布式医疗平台
 
 ### 介绍
-搭建的分布式医疗项目，主要负责后端开发工作，包括系统管理、ERP、看病就诊、收费管理等功能。
+分布式医疗项目，包括系统管理、ERP系统、看病就诊、收费管理等功能。
 
 ### 软件架构
 SpringBoot、MyBatis-Plus、Zookeeper、Dubbo、Redis、Shiro、RocketMQ
