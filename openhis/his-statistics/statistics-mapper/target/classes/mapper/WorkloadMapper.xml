@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.WorkloadMapper">
+    <resultMap id="WorkloadBaseResultMap" type="com.ecust.domain.Workload">
+        <result column="reg_id" property="regId"/>
+        <result column="user_id" property="userId"/>
+        <result column="doctor_name" property="doctorName"/>
+        <result column="reg_item_amount" property="regAmount"/>
+        <result column="patient_name" property="patientName"/>
+        <result column="visit_date" property="visitDate"/>
+    </resultMap>
+    <sql id="Workload_Base_Column_List">
+    reg_id, user_id,doctor_name,reg_item_amount,patient_name,visit_date
+  </sql>
+    <resultMap id="WorkloadStatBaseResultMap" type="com.ecust.domain.WorkloadStat">
+        <result column="user_id" property="userId"/>
+        <result column="doctor_name" property="doctorName"/>
+        <result column="total_amount" property="totalAmount"/>
+        <result column="count" property="count"/>
+    </resultMap>
+    <sql id="WorkloadStat_Base_Column_List">
+    user_id, doctor_name,total_amount,`count`
+  </sql>
+    <select id="queryWorkload" resultMap="WorkloadBaseResultMap">
+        select
+        <include refid="Workload_Base_Column_List"></include>
+        from his_registration
+        <where>
+            (reg_status='2'or reg_status='3')
+            <if test="workload.doctorName!=null and workload.doctorName!=''">
+                and doctor_name like concat("%",#{workload.doctorName},"%")
+            </if>
+            <if test="workload.queryDate!=null and workload.queryDate!=''">
+                and date_format(create_time,'%Y-%m-%d') =#{workload.queryDate}
+            </if>
+            <if test="workload.beginTime!=null">
+                and create_time>=#{workload.beginTime}
+            </if>
+            <if test="workload.endTime!=null">
+                and create_time <![CDATA[<=]]>
+                #{workload.endTime}
+            </if>
+        </where>
+    </select>
+    <select id="queryWorkloadStat" resultMap="WorkloadStatBaseResultMap">
+        select user_id,doctor_name,count(1) as 'count',sum(reg_item_amount) as total_amount
+        from his_registration
+        <where>
+            (reg_status='2'or reg_status='3')
+            <if test="workload.doctorName!=null and workload.doctorName!=''">
+                and doctor_name like concat("%",#{workload.doctorName},"%")
+            </if>
+            <if test="workload.queryDate!=null and workload.queryDate!=''">
+                and date_format(create_time,'%Y-%m-%d') =#{workload.queryDate}
+            </if>
+            <if test="workload.beginTime!=null">
+                and create_time>=#{workload.beginTime}
+            </if>
+            <if test="workload.endTime!=null">
+                and create_time <![CDATA[<=]]>
+                #{workload.endTime}
+            </if>
+        </where>
+        group by user_id,doctor_name
+    </select>
+</mapper>

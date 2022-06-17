@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.CheckMapper">
+    <resultMap id="CheckBaseResultMap" type="com.ecust.domain.Check">
+        <result column="check_item_id" property="checkItemId"/>
+        <result column="check_item_name" property="checkItemName"/>
+        <result column="price" property="price"/>
+        <result column="patient_id" property="patientId"/>
+        <result column="patient_name" property="patientName"/>
+        <result column="result_status" property="resultStatus"/>
+        <result column="create_time" property="createTime"/>
+        <result column="create_by" property="createBy"/>
+    </resultMap>
+    <sql id="Check_Base_Column_List">
+        check_item_id, check_item_name,patient_id,patient_name,price,result_status,create_time,create_by
+    </sql>
+    <resultMap id="CheckStatBaseResultMap" type="com.ecust.domain.CheckStat">
+        <result column="check_item_id" property="checkItemId"/>
+        <result column="check_item_name" property="checkItemName"/>
+        <result column="total_amount" property="totalAmount"/>
+        <result column="count" property="count"/>
+    </resultMap>
+    <sql id="CheckStat_Base_Column_List">
+        check_item_id, check_item_name,total_amount,`count`
+    </sql>
+    <!--药品查询-->
+    <select id="selectAllCheck" resultMap="CheckBaseResultMap">
+        select
+        <include refid="Check_Base_Column_List"></include>
+        from his_check_result
+        <where>
+            <if test="check.checkItemId!=null and check.patientName!=''">
+                and check_item_id =#{check.checkItemId}
+            </if>
+            <if test="check.patientName!=null and check.patientName!=''">
+                and patient_name like concat("%",#{check.patientName},"%")
+            </if>
+            <if test="check.queryDate!=null and check.queryDate!=''">
+                and date_format(create_time,'%Y-%m-%d') =#{check.queryDate}
+            </if>
+            <if test="check.beginTime!=null">
+                and create_time>=#{check.beginTime}
+            </if>
+            <if test="check.endTime!=null">
+                and create_time <![CDATA[<=]]>
+                #{check.endTime}
+            </if>
+        </where>
+    </select>
+    <!--药品统计查询-->
+    <select id="selectAllCheckStat" resultMap="CheckStatBaseResultMap">
+        select check_item_id,check_item_name,count(1) as 'count',sum(price) as total_amount
+        from his_check_result
+        <where>
+            <if test="check.checkItemId!=null and check.patientName!=''">
+                and check_item_id =#{check.checkItemId}
+            </if>
+            <if test="check.queryDate!=null and check.queryDate!=''">
+                and date_format(create_time,'%Y-%m-%d') =#{check.queryDate}
+            </if>
+            <if test="check.beginTime!=null">
+                and create_time>=#{check.beginTime}
+            </if>
+            <if test="check.endTime!=null">
+                and create_time <![CDATA[<=]]>
+                #{check.endTime}
+            </if>
+        </where>
+        group by check_item_id,check_item_name
+    </select>
+</mapper>

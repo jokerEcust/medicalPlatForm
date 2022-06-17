@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/MenuServiceImpl.java" line="24" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a126dd8-b31f-467b-a687-3f6134ea5a99" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/his-commons/target/" />
+    <ignored path="$PROJECT_DIR$/his-system/target/" />
+    <ignored path="$PROJECT_DIR$/his-system/system-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/his-system/system-domain/target/" />
+    <ignored path="$PROJECT_DIR$/his-system/system-api/target/" />
+    <ignored path="$PROJECT_DIR$/his-system/system-service/target/" />
+    <ignored path="$PROJECT_DIR$/his-system/system-web/target/" />
+    <ignored path="$PROJECT_DIR$/his-erp/target/" />
+    <ignored path="$PROJECT_DIR$/his-erp/erp-domain/target/" />
+    <ignored path="$PROJECT_DIR$/his-erp/erp-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/his-erp/erp-service/target/" />
+    <ignored path="$PROJECT_DIR$/his-doctor/target/" />
+    <ignored path="$PROJECT_DIR$/his-doctor/doctor-domain/target/" />
+    <ignored path="$PROJECT_DIR$/his-doctor/doctor-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/his-doctor/doctor-api/target/" />
+    <ignored path="$PROJECT_DIR$/his-doctor/doctor-service/target/" />
+    <ignored path="$PROJECT_DIR$/his-statistics/target/" />
+    <ignored path="$PROJECT_DIR$/his-statistics/statistics-domain/target/" />
+    <ignored path="$PROJECT_DIR$/his-statistics/statistics-api/target/" />
+    <ignored path="$PROJECT_DIR$/his-statistics/statistics-service/target/" />
+    <ignored path="$PROJECT_DIR$/his-statistics/statistics-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/his-erp/erp-api/target/" />
+    <ignored path="$PROJECT_DIR$/alipay-demo/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/openhis$DemoTest.ic" NAME="DemoTest Coverage Results" MODIFIED="1650639806124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ecust.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="open-his" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="open-his" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="open-his" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="open-his: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="open-his" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="open-his: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="his_check_result: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="open-his" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="open-his: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="sys_check_item: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="21876714">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="72" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="11" />
+          <entry key="project.open.time.11" value="8" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="13" />
+          <entry key="project.open.time.9" value="14" />
+          <entry key="project.opened" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Search" value="10" />
+          <entry key="class" value="1" />
+          <entry key="dummy" value="8" />
+          <entry key="html" value="17" />
+          <entry key="java" value="51329" />
+          <entry key="md" value="265" />
+          <entry key="properties" value="237" />
+          <entry key="txt" value="72" />
+          <entry key="xml" value="2420" />
+          <entry key="yml" value="853" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="17" />
+          <entry key="JAVA" value="51329" />
+          <entry key="Markdown" value="265" />
+          <entry key="MybatisParam" value="1" />
+          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="Properties" value="237" />
+          <entry key="SPI" value="10" />
+          <entry key="SQL" value="30" />
+          <entry key="XML" value="2389" />
+          <entry key="YAML" value="853" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Driver" value="2" />
+          <entry key="FutureTask" value="1" />
+          <entry key="HttpServlet" value="1" />
+          <entry key="Search" value="1" />
+          <entry key="Servlet" value="1" />
+          <entry key="class" value="136" />
+          <entry key="factories" value="4" />
+          <entry key="html" value="2" />
+          <entry key="java" value="890" />
+          <entry key="md" value="1" />
+          <entry key="pom" value="5" />
+          <entry key="properties" value="12" />
+          <entry key="sql" value="3" />
+          <entry key="xml" value="156" />
+          <entry key="yml" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="136" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="890" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="12" />
+          <entry key="SPI" value="3" />
+          <entry key="Scratch" value="3" />
+          <entry key="UML" value="3" />
+          <entry key="XML" value="161" />
+          <entry key="YAML" value="43" />
+          <entry key="spring.factories" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="openhis" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/LoginInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/DictDataController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="56" column="68" lean-forward="true" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/his-system/system-api/src/main/java/com/ecust/service/DictDataService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/DictDataServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/ecust/ErpApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/SystemApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>checkItem</find>
+      <find>RegisteredItemService</find>
+      <find>registeredItem</find>
+      <find>producterDtoMapper</find>
+      <find>Application</find>
+      <find>producter</find>
+      <find>Producter</find>
+      <find>provider</find>
+      <find>* @param</find>
+      <find>paySuccess</find>
+      <find>Pay</find>
+      <find>pay</find>
+      <find>orderItemQw</find>
+      <find>allItems</find>
+      <find>================================</find>
+      <find>orderChargeFormDto</find>
+      <find>Charge</find>
+      <find>queryAllCheckResultForPage</find>
+      <find>]</find>
+      <find>&quot;</find>
+      <find>toS</find>
+      <find>queryAllCheckingResultForPage</find>
+      <find>deptService</find>
+      <find>ensureCapacity</find>
+      <find>unlinkFirst</find>
+      <find>threshold</find>
+      <find>DEFAULT_LOAD_FACTOR</find>
+      <find>DEFAULT_INITIAL_CAPACITY</find>
+      <find>ConnectException</find>
+      <find>@Hys</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ecust</replace>
+      <replace>data</replace>
+      <replace>dictDataDto</replace>
+      <replace>Dept</replace>
+      <replace>deptDto</replace>
+      <replace>registeredItemService</replace>
+      <replace>RegisteredItem</replace>
+      <replace>registeredItem</replace>
+      <replace>producter</replace>
+      <replace>producterMapper</replace>
+      <replace>medicines</replace>
+      <replace>Medicines</replace>
+      <replace>provider</replace>
+      <replace>Provider</replace>
+      <replace>purchase</replace>
+      <replace>String</replace>
+      <replace>Back</replace>
+      <replace>back</replace>
+      <replace>orderBackfeeFormDto</replace>
+      <replace>Backfee</replace>
+      <replace>{</replace>
+      <replace>}</replace>
+      <replace>'</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/java/com/ecust/mapper/WorkloadMapper.java" />
+        <option value="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/WorkloadMapper.xml" />
+        <option value="$PROJECT_DIR$/his-statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/RevenueMapper.xml" />
+        <option value="$PROJECT_DIR$/his-statistics/statistics-service/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/rep/MedicinesController.java" />
+        <option value="$PROJECT_DIR$/alipay-demo/src/main/java/com/ecust/demo/trade/MyException.java" />
+        <option value="$PROJECT_DIR$/alipay-demo/src/main/java/com/ecust/demo/trade/ThreadDemo.java" />
+        <option value="$PROJECT_DIR$/alipay-demo/src/main/java/com/ecust/demo/trade/BankDemo.java" />
+        <option value="$PROJECT_DIR$/his-statistics/statistics-service/src/main/java/com/ecust/StatisticsApplication.java" />
+        <option value="$PROJECT_DIR$/his-commons/src/main/java/com/ecust/aspectj/annotation/Log.java" />
+        <option value="$PROJECT_DIR$/his-doctor/doctor-service/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/mq/producer/SyncProducer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/mq/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/search/Search.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/search/Impl/FileSearch.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/search/Impl/DatabaseSearch.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/META-INF/services/com.ecust.search.Search" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/test/DemoTest.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/mq/consumer/Demo1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/mq/consumer/Demo2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/config/ViewDemo.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/nio/NioClient.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/nio/Main.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/sort/BucketSort.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/sort/RadixSort.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/sort/Demo.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/sort/Main.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/SystemApplication.java" />
+        <option value="$PROJECT_DIR$/his-commons/src/main/java/com/ecust/vo/DataGridView.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/Main.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/ecust/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/DictTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/aspectj/OperLogAspect.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/LoginController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/rep/PurchaseController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/ecust/service/impl/OrderChargeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/PatientController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/OrderChargeController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/PayController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/resources/zfbinfo.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/CareController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/CheckItemController.java" />
+        <option value="$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/DictDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/ecust/ErpApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="2580" />
+    <option name="height" value="1570" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecust" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecust" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-erp" type="462c0819:PsiDirectoryNode" />
+              <item name="erp-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecust" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+              <item name="system-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+              <item name="system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+              <item name="system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+              <item name="system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+              <item name="system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openhis" type="462c0819:PsiDirectoryNode" />
+              <item name="his-system" type="462c0819:PsiDirectoryNode" />
+              <item name="system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ecust" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:8.0.19" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:8.0.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-8.0.19.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:8.0.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-8.0.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:8.0.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-8.0.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure:2.7.6" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure:2.7.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-spring-boot-autoconfigure-2.7.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openhis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure:2.7.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-spring-boot-autoconfigure-2.7.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="@Configuration&#9;PSI&#9;JAVA://org.springframework.boot.context.properties.ConfigurationProperties&#10;saveO&#9;PSI&#9;JAVA://com.ecust.service.OrderBackfeeService#saveOrderAndItems&#10;CancelPayOrder&#9;null&#9;null&#10;injectMappedStatement&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.core.injector.AbstractMethod#injectMappedStatement&#10;doGetBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.AbstractBeanFactory#doGetBean&#10;createBean&#9;PSI&#9;JAVA://org.apache.commons.configuration.beanutils.BeanFactory#createBean&#10;getBean&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean.TargetBeanObjectFactory&#10;@Log&#9;PSI&#9;JAVA://com.ecust.aspectj.annotation.Log&#10;Linked&#9;FILE&#9;jar://D:/Java/jdk1.8.0_301/src.zip!/java/util/LinkedList.java&#10;FilterInput&#9;PSI&#9;JAVA://java.io.FilterInputStream&#10;getSingleton&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.SingletonBeanRegistry#getSingleton&#10;SpringFactoriesLoader&#9;PSI&#9;JAVA://org.springframework.core.io.support.SpringFactoriesLoader&#10;&quot;META-INF/spring.factories&quot;&#9;null&#9;null&#10;META-INF/spring.factories&#9;FILE&#9;jar://C:/Users/lenovo/.m2/repository/org/apache/dubbo/dubbo-spring-boot-autoconfigure/2.7.6/dubbo-spring-boot-autoconfigure-2.7.6.jar!/META-INF/spring.factories&#10;CglibAutoProxyConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653014172550" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/java/1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\医疗项目\openhis\his-statistics\statistics-mapper\src\main\resources\mapper" />
+      <recent name="D:\IdeaProjects\医疗项目\openhis\his-system\system-web\src\main\java\com\ecust\config\upload" />
+      <recent name="D:\IdeaProjects\医疗项目\openhis\his-system\system-web\src\main\resources" />
+      <recent name="D:\IdeaProjects\医疗项目\openhis\his-system\system-web" />
+      <recent name="D:\IdeaProjects\医疗项目\openhis\alipay-demo\src\main\java\com\ecust\demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecust.mapper" />
+      <recent name="com.ecust.domain" />
+      <recent name="com.ecust.dto" />
+      <recent name="com.ecust.controller.doctor" />
+      <recent name="com.ecust.alipay" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\医疗项目\openhis\his-commons\src\main\java\com\ecust\vo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.18825911" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ErpApplication">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecust.sort.Main" />
+      <module name="rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecust.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecust.sort.RadixSort" />
+      <module name="rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecust.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alipay-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecust.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoctorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="doctor-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecust.DoctorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="erp-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecust.ErpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecust.Main1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="statistics-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecust.StatisticsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="system-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecust.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.StatisticsApplication" />
+      <item itemvalue="Spring Boot.DoctorApplication" />
+      <item itemvalue="Application.RadixSort" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="Spring Boot.Main1" />
+      <item itemvalue="Spring Boot.ErpApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Spring Boot.ErpApplication" />
+        <item itemvalue="Spring Boot.Main1" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.RadixSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a126dd8-b31f-467b-a687-3f6134ea5a99" name="Default Changelist" comment="" />
+      <created>1640758830005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640758830005</updated>
+      <workItem from="1640758833148" duration="13025000" />
+      <workItem from="1640827154144" duration="768000" />
+      <workItem from="1640836022159" duration="1322000" />
+      <workItem from="1641183602419" duration="4436000" />
+      <workItem from="1641190771328" duration="7680000" />
+      <workItem from="1641216563245" duration="733000" />
+      <workItem from="1641263403400" duration="3402000" />
+      <workItem from="1641266991541" duration="3315000" />
+      <workItem from="1641276402974" duration="1871000" />
+      <workItem from="1641278687128" duration="291000" />
+      <workItem from="1641278999510" duration="6142000" />
+      <workItem from="1641297093565" duration="616000" />
+      <workItem from="1641348538120" duration="20708000" />
+      <workItem from="1641437063889" duration="10921000" />
+      <workItem from="1641476758494" duration="593000" />
+      <workItem from="1641529924297" duration="11630000" />
+      <workItem from="1641549515499" duration="5738000" />
+      <workItem from="1641699234344" duration="21158000" />
+      <workItem from="1641785588431" duration="9650000" />
+      <workItem from="1641799884069" duration="6021000" />
+      <workItem from="1641867771498" duration="14677000" />
+      <workItem from="1641952726547" duration="15512000" />
+      <workItem from="1642043026426" duration="595000" />
+      <workItem from="1642121948024" duration="12619000" />
+      <workItem from="1642399007751" duration="1679000" />
+      <workItem from="1642473988661" duration="227000" />
+      <workItem from="1642513714030" duration="3611000" />
+      <workItem from="1642555935740" duration="7324000" />
+      <workItem from="1642660853067" duration="15372000" />
+      <workItem from="1642729381879" duration="14344000" />
+      <workItem from="1642762759991" duration="635000" />
+      <workItem from="1642841309360" duration="13119000" />
+      <workItem from="1642898456606" duration="15728000" />
+      <workItem from="1643177193846" duration="11288000" />
+      <workItem from="1643285657492" duration="3161000" />
+      <workItem from="1643508231697" duration="12800000" />
+      <workItem from="1643609716404" duration="615000" />
+      <workItem from="1643623627930" duration="30000" />
+      <workItem from="1643684540982" duration="12950000" />
+      <workItem from="1643768999559" duration="16468000" />
+      <workItem from="1643861796744" duration="7799000" />
+      <workItem from="1643977022638" duration="645000" />
+      <workItem from="1644048342338" duration="14954000" />
+      <workItem from="1644115829485" duration="9031000" />
+      <workItem from="1644641387986" duration="8907000" />
+      <workItem from="1644833954454" duration="637000" />
+      <workItem from="1645260080242" duration="140000" />
+      <workItem from="1645260612818" duration="3278000" />
+      <workItem from="1645414935685" duration="11581000" />
+      <workItem from="1645494397985" duration="10761000" />
+      <workItem from="1645588079636" duration="13857000" />
+      <workItem from="1645685258657" duration="9654000" />
+      <workItem from="1645789636035" duration="4674000" />
+      <workItem from="1645845282743" duration="1257000" />
+      <workItem from="1646212942204" duration="630000" />
+      <workItem from="1646310580608" duration="2079000" />
+      <workItem from="1646366091955" duration="52000" />
+      <workItem from="1650445425550" duration="10479000" />
+      <workItem from="1650593617767" duration="17709000" />
+      <workItem from="1650680160159" duration="3476000" />
+      <workItem from="1650767053087" duration="18341000" />
+      <workItem from="1650853305478" duration="5617000" />
+      <workItem from="1650939821762" duration="6560000" />
+      <workItem from="1651069435738" duration="594000" />
+      <workItem from="1651131963647" duration="622000" />
+      <workItem from="1651198898383" duration="9065000" />
+      <workItem from="1651293010252" duration="7652000" />
+      <workItem from="1651390256928" duration="9720000" />
+      <workItem from="1651481930728" duration="11227000" />
+      <workItem from="1651632219623" duration="1197000" />
+      <workItem from="1652274471548" duration="671000" />
+      <workItem from="1652609127955" duration="4242000" />
+      <workItem from="1652927869385" duration="3103000" />
+      <workItem from="1653012860001" duration="1876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Main_testRefund - 2022.02.02 at 12h 01m 54s.xml">
+      <configuration name="Main.testRefund" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testRefund - 2022.02.02 at 12h 02m 22s.xml">
+      <configuration name="Main.testRefund" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testRefund - 2022.02.02 at 12h 02m 46s.xml">
+      <configuration name="Main.testRefund" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testRefund - 2022.02.02 at 12h 06m 15s.xml">
+      <configuration name="Main.testRefund" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testRefund - 2022.02.02 at 12h 48m 03s.xml">
+      <configuration name="Main.testRefund" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testRefund - 2022.02.02 at 12h 56m 17s.xml">
+      <configuration name="Main.testRefund" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_q - 2022.02.06 at 11h 55m 03s.xml">
+      <configuration name="Main.q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_q - 2022.02.06 at 11h 55m 18s.xml">
+      <configuration name="Main.q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_q - 2022.02.06 at 12h 19m 50s.xml">
+      <configuration name="Main.q" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_q - 2022.02.23 at 11h 49m 21s.xml">
+      <configuration name="Main.q" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="514861000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1254" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.40411702" visible="true" weight="0.29540917" />
+      <window_info id="Structure" order="1" sideWeight="0.595883" side_tool="true" weight="0.2217484" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5085803" side_tool="true" weight="0.18443497" />
+      <window_info id="Web" order="7" sideWeight="0.5085803" side_tool="true" weight="0.18443497" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31522706" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5360641" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32912722" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32912722" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3284101" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32912722" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.5387355" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.43365985" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28443113" />
+      <window_info anchor="right" id="Database" order="6" weight="0.23752496" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6835994" visible="true" weight="0.23773988" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.3164006" side_tool="true" visible="true" weight="0.23773988" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5085803" side_tool="true" weight="0.18443497" />
+      <window_info id="Web" order="7" sideWeight="0.5085803" side_tool="true" weight="0.18443497" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27549946" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2681388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32912722" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32912722" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3284101" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32912722" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.16854909" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.26077813" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28493014" />
+      <window_info anchor="right" id="Database" order="6" weight="0.23773988" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" show_stripe_button="false" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>table.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>threshold</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>szie</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tab[7]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tab.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tab.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/alipay-demo/src/main/resources/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipay-demo/src/main/resources/zfbsetting.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/resources/zfbsetting.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/alipay/PayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/resources/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/PayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-doctor/doctor-api/src/main/java/com/ecust/service/OrderBackfeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/ecust/service/impl/OrderBackfeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/OrderChargeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8442">
+          <caret line="221" column="36" lean-forward="true" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1671">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/RegisteredItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/NoticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/OperLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/rep/MedicinesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/CheckItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/rep/InventoryLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-erp/erp-service/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.1.tmp/mybatis-plus-core-3.3.1.tmp.jar!/com/baomidou/mybatisplus/core/MybatisConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8904">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-commons/src/main/java/com/ecust/constants/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-commons/src/main/java/com/ecust/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-commons/src/main/java/com/ecust/domain/SimpleUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-commons/src/main/java/com/ecust/vo/AjaxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2249">
+          <caret line="127" column="60" selection-start-line="127" selection-start-column="60" selection-end-line="127" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.5.RELEASE/spring-boot-2.2.5.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/CheckItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/ecust/service/impl/InventoryLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-spring-boot-autoconfigure/2.7.6/dubbo-spring-boot-autoconfigure-2.7.6.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/CareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6930">
+          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/doctor/HandleMedicineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2814">
+          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar!/META-INF/services/java.sql.Driver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4261">
+          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/LoginInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/controller/system/DictDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="56" column="68" lean-forward="true" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-api/src/main/java/com/ecust/service/DictDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-service/src/main/java/com/ecust/service/impl/DictDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/ecust/service/impl/PurchaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/ecust/ErpApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/his-system/system-web/src/main/java/com/ecust/SystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>system-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

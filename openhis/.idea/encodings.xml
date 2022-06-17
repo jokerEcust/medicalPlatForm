@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alipay-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-doctor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-doctor/doctor-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-doctor/doctor-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-doctor/doctor-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-doctor/doctor-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-erp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-erp/erp-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-erp/erp-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-erp/erp-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-erp/erp-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-statistics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-statistics/statistics-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-statistics/statistics-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-statistics/statistics-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-statistics/statistics-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-system/system-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-system/system-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-system/system-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-system/system-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/his-system/system-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq" charset="UTF-8" />
+  </component>
+</project>

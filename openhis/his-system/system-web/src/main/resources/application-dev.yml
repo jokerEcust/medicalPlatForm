@@ -1,0 +1,80 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #此处使用的数据库为8.x版本
+    url: jdbc:mysql://192.168.56.103:3306/open-his?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    password: 123456
+    username: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-active: 20
+      min-idle: 5
+      validation-query: select x
+      initial-size: 3
+      max-wait: 5000
+      stat-view-servlet:
+        # login-username: root
+        # login-password: 123456
+        allow:
+        deny:
+        url-pattern: /druid/*
+        enabled: true
+  #配置redis
+  redis:
+    port: 6390
+    host: 172.20.138.222
+    password: 123456
+  #mvc
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+#mybatisplus
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*Mapper.xml
+  global-config:
+    db-config:
+      id-type: auto
+#fastdfs配置
+fdfs:
+  so-timeout: 2500
+  connect-timeout: 600
+  thumb-image:
+    width: 100
+    height: 100
+  tracker-list:
+  #    tracker服务配置的地址列表
+    - 172.20.138.222:22122
+upload:
+  base-url: http://172.20.138.222:8888
+  allow-types:
+    - image/jpeg
+    - image/png
+    - image/bmp
+#dubbo
+dubbo:
+  application:
+    name: his-system-web-service
+  registry:
+    address: zookeeper://172.20.138.222:2181
+    timeout: 40000
+  consumer:
+    check: false
+  config-center:
+    timeout: 25000
+#shiro 配置
+shiro:
+  #login-url: /index.html
+  anon-urls:
+    - /login/doLogin*
+    - /login/captcha*
+    - /login/logout*
+    - /pay/callback*/**
+    - /druid/**
+  authc-urls:
+    - /**

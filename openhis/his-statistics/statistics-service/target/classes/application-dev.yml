@@ -1,0 +1,44 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #此处使用的数据库为8.x版本
+    url: jdbc:mysql://192.168.56.103:3306/open-his
+    password: 123456
+    username: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-active: 20
+      min-idle: 5
+      validation-query: select x
+      initial-size: 3
+      max-wait: 5000
+      stat-view-servlet:
+        # login-username: root
+        # login-password: 123456
+        url-pattern: /druid/*
+        enabled: true
+
+#mybatisplus 配置
+mybatis-plus:
+  #MyBatis 配置文件位置
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #mybatis mapper对应的xml文件位置
+  mapper-locations: classpath:mapper/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+#dubbo
+dubbo:
+  application:
+    name: his-statistics-service
+  registry:
+    address: zookeeper://172.20.138.222:2181
+    timeout: 40000
+  protocol:
+    port: -1
+    name: dubbo
+  scan:
+    base-packages: com.ecust.service.impl

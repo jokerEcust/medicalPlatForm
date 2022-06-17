@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alipay-demo" />
+        <module name="doctor-api" />
+        <module name="doctor-domain" />
+        <module name="doctor-mapper" />
+        <module name="doctor-service" />
+        <module name="erp-api" />
+        <module name="erp-domain" />
+        <module name="erp-mapper" />
+        <module name="erp-service" />
+        <module name="his-commons" />
+        <module name="rabbitmq" />
+        <module name="statistics-api" />
+        <module name="statistics-domain" />
+        <module name="statistics-mapper" />
+        <module name="statistics-service" />
+        <module name="system-api" />
+        <module name="system-domain" />
+        <module name="system-mapper" />
+        <module name="system-service" />
+        <module name="system-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.OrderChargeItemMapper">
+  <resultMap id="BaseResultMap" type="com.ecust.domain.OrderChargeItem">
+    <!--@mbg.generated-->
+    <!--@Table his_order_charge_item-->
+    <id column="item_id" jdbcType="VARCHAR" property="itemId" />
+    <result column="co_id" jdbcType="VARCHAR" property="coId" />
+    <result column="item_name" jdbcType="VARCHAR" property="itemName" />
+    <result column="item_price" jdbcType="DECIMAL" property="itemPrice" />
+    <result column="item_num" jdbcType="INTEGER" property="itemNum" />
+    <result column="item_amount" jdbcType="DECIMAL" property="itemAmount" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="item_type" jdbcType="CHAR" property="itemType" />
+    <result column="status" jdbcType="CHAR" property="status" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    item_id, co_id, item_name, item_price, item_num, item_amount, order_id, item_type, 
+    `status`
+  </sql>
+</mapper>

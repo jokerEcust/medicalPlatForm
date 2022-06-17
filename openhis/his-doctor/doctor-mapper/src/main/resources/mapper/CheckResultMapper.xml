@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.CheckResultMapper">
+  <resultMap id="BaseResultMap" type="com.ecust.domain.CheckResult">
+    <!--@mbg.generated-->
+    <!--@Table his_check_result-->
+    <id column="item_id" jdbcType="VARCHAR" property="itemId" />
+    <result column="check_item_id" jdbcType="INTEGER" property="checkItemId" />
+    <result column="check_item_name" jdbcType="VARCHAR" property="checkItemName" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="result_msg" jdbcType="VARCHAR" property="resultMsg" />
+    <result column="result_img" jdbcType="VARCHAR" property="resultImg" />
+    <result column="patient_id" jdbcType="VARCHAR" property="patientId" />
+    <result column="patient_name" jdbcType="VARCHAR" property="patientName" />
+    <result column="result_status" jdbcType="CHAR" property="resultStatus" />
+    <result column="reg_id" jdbcType="VARCHAR" property="regId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    item_id, check_item_id, check_item_name, price, result_msg, result_img, patient_id, 
+    patient_name, result_status, reg_id, create_time, update_time, create_by, update_by
+  </sql>
+</mapper>

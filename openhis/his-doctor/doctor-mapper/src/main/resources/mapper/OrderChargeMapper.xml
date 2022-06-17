@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.OrderChargeMapper">
+  <resultMap id="BaseResultMap" type="com.ecust.domain.OrderCharge">
+    <!--@mbg.generated-->
+    <!--@Table his_order_charge-->
+    <id column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="order_amount" jdbcType="DECIMAL" property="orderAmount" />
+    <result column="ch_id" jdbcType="VARCHAR" property="chId" />
+    <result column="reg_id" jdbcType="VARCHAR" property="regId" />
+    <result column="patient_name" jdbcType="VARCHAR" property="patientName" />
+    <result column="order_status" jdbcType="CHAR" property="orderStatus" />
+    <result column="pay_platform_id" jdbcType="VARCHAR" property="payPlatformId" />
+    <result column="pay_time" jdbcType="TIMESTAMP" property="payTime" />
+    <result column="pay_type" jdbcType="CHAR" property="payType" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    order_id, order_amount, ch_id, reg_id, patient_name, order_status, pay_platform_id, 
+    pay_time, pay_type, create_time, update_time, create_by, update_by
+  </sql>
+</mapper>

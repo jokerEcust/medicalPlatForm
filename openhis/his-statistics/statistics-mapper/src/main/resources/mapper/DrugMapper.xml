@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.DrugMapper">
+    <resultMap id="DrugBaseResultMap" type="com.ecust.domain.Drug">
+        <result column="item_ref_id" property="medicinesId"/>
+        <result column="item_name" property="medicinesName"/>
+        <result column="price" property="price"/>
+        <result column="amount" property="amount"/>
+        <result column="num" property="num"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+    <sql id="Drug_Base_Column_List">
+        item_ref_id, item_name,price,amount,num,create_time
+    </sql>
+    <resultMap id="DrugStatBaseResultMap" type="com.ecust.domain.DrugStat">
+        <result column="item_ref_id" property="medicinesId"/>
+        <result column="item_name" property="medicinesName"/>
+        <result column="total_amount" property="totalAmount"/>
+        <result column="count" property="count"/>
+    </resultMap>
+    <sql id="DrugStat_Base_Column_List">
+        item_ref_id, item_name,total_amount,`count`
+    </sql>
+    <!--药品查询-->
+    <select id="selectDrug" resultMap="DrugBaseResultMap">
+        select
+        <include refid="Drug_Base_Column_List"></include>
+        from his_care_order_item
+        <where>
+            status='3' and item_type='0'
+            <if test="drug.drugName!=null and drug.drugName!=''">
+                and item_name like concat("%",#{drug.drugName},"%")
+            </if>
+            <if test="drug.queryDate!=null and drug.queryDate!=''">
+                and date_format(create_time,'%Y-%m-%d') =#{drug.queryDate}
+            </if>
+            <if test="drug.beginTime!=null">
+                and create_time>=#{drug.beginTime}
+            </if>
+            <if test="drug.endTime!=null">
+                and create_time <![CDATA[<=]]>
+                #{drug.endTime}
+            </if>
+        </where>
+    </select>
+    <!--药品统计查询-->
+    <select id="selectDrugStat" resultMap="DrugStatBaseResultMap">
+        select item_ref_id,item_name,count(1) as 'count',sum(amount) as total_amount
+        from his_care_order_item
+        <where>
+            status='3' and item_type='0'
+            <if test="drug.drugName!=null and drug.drugName!=''">
+                and item_name like concat("%",#{drug.drugName},"%")
+            </if>
+            <if test="drug.queryDate!=null and drug.queryDate!=''">
+                and date_format(create_time,'%Y-%m-%d') =#{drug.queryDate}
+            </if>
+            <if test="drug.beginTime!=null">
+                and create_time>=#{drug.beginTime}
+            </if>
+            <if test="drug.endTime!=null">
+                and create_time <![CDATA[<=]]>
+                #{drug.endTime}
+            </if>
+        </where>
+        group by item_ref_id,item_name
+    </select>
+</mapper>

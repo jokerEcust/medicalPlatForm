@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecust.mapper.OrderBackfeeMapper">
+  <resultMap id="BaseResultMap" type="com.ecust.domain.OrderBackfee">
+    <!--@mbg.generated-->
+    <!--@Table his_order_backfee-->
+    <id column="back_id" jdbcType="VARCHAR" property="backId" />
+    <result column="back_amount" jdbcType="DECIMAL" property="backAmount" />
+    <result column="ch_id" jdbcType="VARCHAR" property="chId" />
+    <result column="reg_id" jdbcType="VARCHAR" property="regId" />
+    <result column="patient_name" jdbcType="VARCHAR" property="patientName" />
+    <result column="back_status" jdbcType="CHAR" property="backStatus" />
+    <result column="back_type" jdbcType="CHAR" property="backType" />
+    <result column="order_id" jdbcType="VARCHAR" property="orderId" />
+    <result column="back_platform_id" jdbcType="VARCHAR" property="backPlatformId" />
+    <result column="back_time" jdbcType="TIMESTAMP" property="backTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    back_id, back_amount, ch_id, reg_id, patient_name, back_status, back_type, order_id, 
+    back_platform_id, back_time, create_time, update_time, create_by, update_by
+  </sql>
+</mapper>
